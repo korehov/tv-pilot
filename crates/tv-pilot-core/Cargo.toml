@@ -1,0 +1,16 @@
+[package]
+name = "tv-pilot-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Cross-platform local control, stream scoring, and external security shield for Android TV / Google TV (runs on PC/Phone over LAN or natively on TV)"
+
+[dependencies]
+tokio.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+thiserror.workspace = true
+urlencoding.workspace = true

@@ -1,0 +1,26 @@
+# Конфигурация TV Pilot (100% Local Wi-Fi / RFC 1918 Only + On-Device TV Mode)
+tv_ip = "172.30.0.176"
+adb_port = 5555
+torrserve_port = 8090
+
+# Пакет видеоплеера по умолчанию (Just Player)
+default_player_package = "net.gtvbox.videoplayer"
+default_player_activity = "net.gtvbox.videoplayer/.PlayerActivity"
+
+# Безопасный размер RAM-кэша TorrServe для ТВ с 2 ГБ ОЗУ (64 МБ)
+safe_torrserve_cache_bytes = 67108864
+
+# Доверенный белый список сторонних APK (pm list packages -3)
+trusted_packages = [
+    "net.gtvbox.videoplayer",
+    "top.rootu.lampa",
+    "ru.yourok.num",
+    "ru.yourok.torrserve",
+    "org.smarttube.stable",
+    "com.wireguard.android",
+    "com.phlox.tvwebbrowser",
+    "de.eye_interactive.atvl.playstore",
+    "com.lonelycatgames.Xplore",
+    "com.internet.speed.meter.lite",
+    "com.analiti.fastest.android",
+]
